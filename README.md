@@ -8,7 +8,7 @@
 
 ## 查看全部 emoji 🔎
 
-https://emoji.async.com
+https://emoji.async.cn
 
 ## github 🔗
 

@@ -3,6 +3,7 @@
   "displayName": "快捷emoji",
   "description": "这是一个输入`000`+ emoji名字（中文）就可以生成emoji的插件，内置三千多个emoji，可以让我们快速生成emoji！",
   "version": "1.0.0",
+  "icon": "resources/logo.png",
   "engines": {
     "vscode": "^1.88.0"
   },
@@ -33,6 +34,7 @@
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
+    "build": "vsce package",
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
