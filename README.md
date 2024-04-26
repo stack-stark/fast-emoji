@@ -8,18 +8,18 @@
 
 直接输入前缀（默认值：000）+emoji 名字，就可以生成 emoji，例如：000 龙 即可生成 🐉
 
-![](https://raw.githubusercontents.com/stack-stark/fast-emoji/main/screenshot/example.gif)
+![](https://img.kuaiyouyi.com/disk/2024/4/26/b9f472fc86b69c5760165eeaede469b4.gif)
 
 ### 内容区插入
 
 输入前缀（默认值：000）+ 名字然后空格，就可以生成 emoji，例如：000+龙+空格 即可生成 🐉
-![](https://raw.githubusercontents.com/stack-stark/fast-emoji/main/screenshot/example2.gif)
+![](https://img.kuaiyouyi.com/disk/2024/4/26/9cd47aa4a3391d09621ac419be47ff45.gif)
 
 ## 配置前缀
 
 在 vscode 设置中搜索`fast-emoji.prefix`,输入即可，推荐前缀字符串 3-5 个字符
 
-![](https://raw.githubusercontents.com/stack-stark/fast-emoji/main/screenshot/setting.png)
+![](https://img.kuaiyouyi.com/disk/2024/4/26/5bce68216555b15d1fd509d023e94f40.png)
 
 ## 查看全部 emoji 🔎
 
