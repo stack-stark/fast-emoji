@@ -2,7 +2,7 @@
   "name": "fast-emoji",
   "displayName": "快捷emoji",
   "description": "这是一个在编辑区输入匹配前缀（默认值：000，可配置）+ emoji 名字（中文）就可以生成 emoji 的 vs code 插件，内置三千多个 emoji，可以让我们快速生成 emoji！",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "icon": "resources/logo.png",
   "engines": {
     "vscode": "^1.88.0"
