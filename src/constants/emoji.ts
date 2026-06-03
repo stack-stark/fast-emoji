@@ -6,9 +6,10 @@ import { food } from "./food";
 import { goods } from "./goods";
 import { journey } from "./journey";
 import { sign } from "./sign";
-import { zoon } from "./zoon";
+import { zoo } from "./zoo";
+import { EmojiItem } from "./types";
 
-export const EMOJI_DATA: Array<{ name: string; emoji: string }> = [
+const rawData: EmojiItem[] = [
   ...flag,
   ...body,
   ...activity,
@@ -17,5 +18,11 @@ export const EMOJI_DATA: Array<{ name: string; emoji: string }> = [
   ...goods,
   ...journey,
   ...sign,
-  ...zoon,
+  ...zoo,
 ];
+
+export const EMOJI_DATA: EmojiItem[] = rawData;
+
+export const emojiMap: Map<string, string> = new Map(
+  rawData.map((item) => [item.name, item.emoji])
+);
